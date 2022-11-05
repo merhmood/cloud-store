@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Sign up form 1`] = `
+<form>
+  <p
+    style={
+      Object {
+        "color": "black",
+        "fontSize": "2rem",
+        "fontWeight": "600",
+        "marginBottom": "1em",
+        "textAlign": "center",
+      }
+    }
+  >
+    Media
+    <span
+      style={
+        Object {
+          "color": "#dd2222",
+        }
+      }
+    >
+      Store
+    </span>
+  </p>
+  <input
+    placeholder="Username"
+    type="text"
+  />
+  <input
+    placeholder="Email"
+    type="text"
+  />
+  <input
+    placeholder="Password"
+    type="password"
+  />
+  <label
+    htmlFor="show password"
+  >
+    Show password
+  </label>
+  <input
+    type="checkbox"
+  />
+  <button>
+    Sign Up
+  </button>
+</form>
+`;

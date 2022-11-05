@@ -1,19 +1,24 @@
-import React from 'react';
+/**
+ * node_modules packages should always be addded to the section
+ * denoted as node modules, while other imports should be added to
+ * the section denoted as app created, this helps in organization
+ * of import statements <3
+ */
+
+//node_modules
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import {createBrowserRouter, RouterProvider} from "react-router-dom"
+
+//app created
+import routes from './pages/routes';
+import './index.css'
+
+const appPagesRoutes = createBrowserRouter(routes)
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <RouterProvider router={appPagesRoutes}/>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

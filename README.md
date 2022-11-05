@@ -1,4 +1,61 @@
-# Getting Started with Create React App
+## [Galage](#)
+
+This is a learning project centered around technologies and skills relating to architecture, design, DevOps, Data engineering/Analysis and software development life cycle planning.
+
+#### Languages
+- Javascript
+- Python
+- Php
+
+#### Libraries & Frameworks
+- React
+- Express & Nextjs
+- Laravel
+- Django
+- Jest
+- Mocha & Chai
+- Pytest & Unittest
+- Istanbul
+
+
+#### Patterns
+- CQRS
+- Event sourcing
+- Event driven
+- Service Oriented
+- Micro Kernel
+
+#### Tools
+- Node
+- Graphql
+- Docker
+- Kubernetes
+- Ansible
+- Grafana
+- Prometheus
+- Splunk
+- ELK stack
+- Apache Spark
+- Apache Hadoop
+- Apache kafka
+- Redis
+- RabbitMQ
+- Jmeter
+- SoapUI
+- Nginx
+- NoSql & Sql databases
+
+#### Others
+- Owasp
+- Agile and Scrum
+- Quality Assurance
+- Problem Solving
+- Time management
+
+and so much more :smile:
+
+
+##### For the project tasks visit [Trello board](https://trello.com/b/4UUZTEUE/galege)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

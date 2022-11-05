@@ -1,0 +1,65 @@
+form {
+    max-width: 400px;
+    width: 85%;
+    margin: 25vh auto;
+    padding: 2em;
+    input {
+        display: block;
+        padding: 1em;
+        margin-bottom: 1em;
+        font-weight: 600;
+        border: 1px solid #666666;
+        outline: none;
+        border-radius: 5px;
+        width: 100%;
+
+        &:focus {
+            border: 1px solid rgba($color: $primary-color-red, $alpha: 0.8);
+            box-shadow: 0px 0px 1px 3px $primary-color-red-opacity-4;
+        }
+
+        &::placeholder {
+            font-family: $raleway;
+            font-weight: 400;
+        }
+
+        &[type='checkbox'] {
+            display: inline-block;
+            margin-right: 0.5em;
+            width: 10px;
+            scale: 1.3;
+        }
+
+        &[type='checkbox']:focus {
+            box-shadow: 0px 0px 1px 2px $primary-color-red-opacity-4;
+        }
+    }
+    .signup-text{
+        font-size: 0.6rem;
+        font-weight: 600;
+        text-align: right;
+        margin: 1.2em 0;
+    }
+
+    label {
+        display: inline-block;
+        font-size: 0.9rem;
+    }
+
+    button {
+        cursor: pointer;
+        border-style: none;
+        background-color: $primary-color-red;
+        display: block;
+        color: white;
+        outline: none;
+        font-weight: 400;
+        border-radius: 5px;
+        width: 40%;
+        height: 37px;
+
+        &:focus {
+            box-shadow: 0px 0px 1px 3px $primary-color-red-opacity-4;
+        }
+    }
+}
